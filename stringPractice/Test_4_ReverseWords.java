@@ -1,11 +1,8 @@
 package stringPractice;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
-import java.util.Stack;
 
-public class ReverseWords {
+public class Test_4_ReverseWords {
     public void solution(String[] strArray){
         for(int i=0;i< strArray.length;i++){
             String[] splitString = strArray[i].split("");
@@ -26,7 +23,7 @@ public class ReverseWords {
             String str = sc.next();
             strArray[i] = str;
         }
-        ReverseWords reverseWords = new ReverseWords();
-        reverseWords.solution(strArray);
+        Test_4_ReverseWords test4ReverseWords = new Test_4_ReverseWords();
+        test4ReverseWords.solution(strArray);
     }
 }

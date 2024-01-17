@@ -2,7 +2,7 @@ package stringPractice;
 
 import java.util.Scanner;
 
-public class CaseConverter {
+public class Test_2_CaseConverter {
 
     public String solution(String anyCaseString){
         String answer = "";
@@ -12,9 +12,9 @@ public class CaseConverter {
         return answer;
     }
     public static void main(String[] args) {
-        CaseConverter caseConverter = new CaseConverter();
+        Test_2_CaseConverter test2CaseConverter = new Test_2_CaseConverter();
         Scanner sc = new Scanner(System.in);
         String anyCaseString = sc.next();
-        System.out.println(caseConverter.solution(anyCaseString));
+        System.out.println(test2CaseConverter.solution(anyCaseString));
     }
 }

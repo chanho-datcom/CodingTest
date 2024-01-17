@@ -3,7 +3,7 @@ package stringPractice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class FindChar {
+public class Test_1_FindChar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String stringForFind =  sc.nextLine();

@@ -1,11 +1,8 @@
 package stringPractice;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
-public class FindLongestWord {
+public class Test_3_FindLongestWord {
     public String solution(String[] strArr){
         int len = 0;
         String answer = "";
@@ -19,10 +16,10 @@ public class FindLongestWord {
         return answer;
     }
     public static void main(String[] args) {
-        FindLongestWord findLongestWord = new FindLongestWord();
+        Test_3_FindLongestWord test3FindLongestWord = new Test_3_FindLongestWord();
         Scanner sc = new Scanner(System.in);
         String centence = sc.nextLine();
         String[] stringArray = centence.split(" ");
-        System.out.println(findLongestWord.solution(stringArray));
+        System.out.println(test3FindLongestWord.solution(stringArray));
     }
 }
